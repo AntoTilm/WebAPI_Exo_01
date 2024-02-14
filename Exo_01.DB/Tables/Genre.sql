@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Genre]
+(
+	[Id_Genre] INT NOT NULL IDENTITY,
+	[Name] NVARCHAR(100) NOT NULL,
+	CONSTRAINT PK_Genre PRIMARY KEY ([Id_Genre])
+)
